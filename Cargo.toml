@@ -1,0 +1,14 @@
+[package]
+name = "amogus"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+
+[dependencies]
+wasm-bindgen = "0.2.63"
+
+wee_alloc = "0.4.5"
