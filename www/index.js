@@ -1,4 +1,5 @@
 import * as wasm from "wasm-amogus";
+import _ from "./bg-v2.png";
 
 //wasm.greet();
 var canvas = document.createElement("canvas");
