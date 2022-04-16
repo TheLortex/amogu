@@ -1,8 +1,8 @@
-## A. Mongus
+# A. Mongus
 
-Go to:
+Go to: http://www.lortex.org/amogu/
 
-### ???
+## ???
 
 This is a client-side, Webassembly-based filter to hide amongus characters in your images.
 
@@ -20,7 +20,7 @@ Example:
 
 <img src="https://github.com/TheLortex/amogu/raw/main/.screenshots/mongus_processed_zoom.png" width="400" />
 
-### Development
+## Development
 
 This uses Rust + Webassembly, and `npm` for the Js side.
 
