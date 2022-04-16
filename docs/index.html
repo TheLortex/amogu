@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A. Mongus</title>
+    <style>
+
+      #content {
+        position: relative;
+        padding: 16px;
+      }
+
+      #content::before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: max(100%, 100vh);
+        top: 0;
+        left: 0;
+        background-image: url("bg-v2.png");
+        opacity: 0.1;
+        background-size: 224px;
+        image-rendering: pixelated;
+        z-index: -1;
+
+      }
+
+      body {
+        margin: 0;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      #imageOutput{
+        image-rendering: pixelated;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <div id="content">
+      <div style="display: flex;">
+        <div style="flex: 1; background-color: white; padding: 16px; border-radius: 15px; padding-top: 0" >
+          <h1>Alexander Mongus</h1>
+          <p style="font-size: 0.7em;">
+            This application is an image filter incorporating small amongi in any picture. 
+            The resulting image can be saved by right-cliking on it and downloading the content.
+            If you cannot see amongi, either the filter failed or the size was too small. So either download and zoom in the picture, or use the filter with bigger amongi.
+          </p>
+          <br/>
+          <form id="settings" style="font-size: 0.8em;">
+            <label for="imageInput"> Load image: </label><input type="file" id="imageInput" />
+            <br/>
+            <br/>
+          </form>
+        </div>
+        <div style="flex: 2; padding: 16px; text-align: center;">
+          <canvas id="imageOutput" style="border: solid black 1px; max-width: 100%; background-color: white"></canvas>
+        </div>
+      </div>
+      <img id="imageElement" style="display: none" />
+      <script src="./bootstrap.js"></script>
+    </div>
+  </body>
+</html>
