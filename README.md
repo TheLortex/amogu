@@ -28,3 +28,6 @@ For the Rust side, use `wasm-pack build` in the root folder. This generates a `p
 
 For the Web side, use `npm run start`, that uses webpack to bundle everything.
 
+### Issues / feature requests
+
+I'd gladly accept contributions but I won't spend a lot of time improving the thing.
