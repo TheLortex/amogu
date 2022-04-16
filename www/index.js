@@ -28,7 +28,7 @@ document.getElementById("imageInput").onchange = function (evt) {
 
 let settings = {
   size: { min: 1, max: 16, value: 1, text: "Size" },
-  count: { min: 0, max: 10000, value: 1, text: "Count" },
+  count: { min: 0, max: 10000, value: 500, text: "Count" },
   contrast: { min: 0, max: 100, value: 5, text: "Contrast" },
   random: { min: 0, max: 100, value: 2, text: "Contrast variation" },
 };
