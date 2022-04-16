@@ -1,5 +1,6 @@
 import * as wasm from "wasm-amogus";
 import _ from "./bg-v2.png";
+import { saveAs } from 'file-saver';
 
 //wasm.greet();
 var canvas = document.createElement("canvas");
@@ -95,3 +96,11 @@ function updateRender() {
     settings.random.value
   );
 }
+
+function save() {
+  output.toBlob(function(blob) {
+    saveAs(blob, "image.png");
+  });
+}
+
+document.getElementById("save").onclick = save
