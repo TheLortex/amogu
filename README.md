@@ -1,5 +1,7 @@
 ## A. Mongus
 
+Go to:
+
 ### ???
 
 This is a client-side, Webassembly-based filter to hide amongus characters in your images.
@@ -8,11 +10,15 @@ Example:
 
 - Original:
 
-- Processed with size=1, count=1000
+<img src="https://github.com/TheLortex/amogu/raw/main/.screenshots/mongus.jpg" width="400" />
 
-### Use it yourself
+- Processed with size=2, count=3000, contrast=5:
 
-This page: 
+<img src="https://github.com/TheLortex/amogu/raw/main/.screenshots/mongus_processed.png" width="400" />
+
+- See what the air is made of:
+
+<img src="https://github.com/TheLortex/amogu/raw/main/.screenshots/mongus_processed_zoom.png" width="400" />
 
 ### Development
 
